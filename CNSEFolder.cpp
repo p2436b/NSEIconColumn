@@ -95,6 +95,6 @@ HRESULT __stdcall CPropertyStore::GetValue(REFPROPERTYKEY key, PROPVARIANT *pv){
 			ppropstore->Release();
 		}
 	}
-	/* ... */
+	/** ... **/
 	return hr;
 }	
